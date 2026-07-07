@@ -36,17 +36,20 @@ The application automatically calculates the travel distance between pickup and 
 
 ### 📈 4. Model Performance & Evaluation Metrics
 *Transparency in data science. Displays real-time evaluation logs, including Mean Absolute Error (MAE) and Root Mean Square Error (RMSE).*
-<p align="center"><img src="images/metrics.png" alt="Model Evaluation" width="85%"></p>
----
-### ✨ Key Features
 
-- 📍 Automatic distance calculation using Geopy
-- 🧠 Hybrid Machine Learning approach
-- 💰 Expected fare prediction
-- 🚨 Overpriced fare detection
-- 🗺 Interactive route map visualization
-- 📊 Model evaluation metrics
-- 💻 User-friendly Streamlit interface
+<p align="center"><img src="images/metrics.png" alt="Model Evaluation" width="85%"></p>
+
+---
+
+## ✨ Key Features
+
+- 📍 **Automatic distance calculation** using Geopy
+- 🧠 **Hybrid Machine Learning** approach
+- 💰 **Expected fare prediction**
+- 🚨 **Overpriced fare detection**
+- 🗺 **Interactive route map** visualization
+- 📊 **Model evaluation metrics**
+- 💻 **User-friendly Streamlit** interface
 
 ---
 
