@@ -9,10 +9,36 @@ An end-to-end Hybrid Machine Learning application that predicts expected auto-ri
 Passengers are often overcharged during auto-rickshaw rides due to the lack of transparent fare estimation systems. This project provides an intelligent solution that predicts the expected fare based on ride conditions and identifies whether the entered fare is fair or overpriced.
 
 The application automatically calculates the travel distance between pickup and drop locations and performs fare prediction and anomaly detection in real time.
+---
+
+## 📸 Application Showcases
+
+### 🏠 1. User Interface & Input Form
+*A clean user interface built with Streamlit allowing seamless entry of pickup points, drop locations, and trip environmental variables.*
+
+<p align="center"><img src="images/home.png" alt="Home Page Interface" width="85%"></p>
 
 ---
 
-## ✨ Key Features
+### 🧠 2. Hybrid ML Prediction & Anomaly Detection
+*The core engine processing input data through Linear Regression for fare baseline estimation and Anomaly Detection to catch overcharging.*
+
+<p align="center"><img src="images/prediction.png" alt="Prediction Results" width="85%"></p>
+
+---
+
+### 🗺️ 3. Interactive Route Mapping
+*Dynamic visualization leveraging Geopy and Folium to plot paths, ensuring users visually audit their selected routes.*
+
+<p align="center"><img src="images/route-map.png" alt="Interactive Route Map" width="85%"></p>
+
+---
+
+### 📈 4. Model Performance & Evaluation Metrics
+*Transparency in data science. Displays real-time evaluation logs, including Mean Absolute Error (MAE) and Root Mean Square Error (RMSE).*
+<p align="center"><img src="images/metrics.png" alt="Model Evaluation" width="85%"></p>
+
+### ✨ Key Features
 
 - 📍 Automatic distance calculation using Geopy
 - 🧠 Hybrid Machine Learning approach
@@ -123,43 +149,6 @@ The application displays:
 These metrics evaluate the performance of the regression model.
 
 ---
----
-
-## 📸 Application Showcases
-
-### 🏠 1. User Interface & Input Form
-*A clean user interface built with Streamlit allowing seamless entry of pickup points, drop locations, and trip environmental variables.*
-
-<p align="center">
-  <img src="images/home.png" alt="Home Page Interface" width="85%">
-</p>
-
----
-
-### 🧠 2. Hybrid ML Prediction & Anomaly Detection
-*The core engine processing input data through Linear Regression for fare baseline estimation and Anomaly Detection to catch overcharging.*
-
-<p align="center">
-  <img src="images/prediction.png" alt="Prediction Results" width="85%">
-</p>
-
----
-
-### 🗺️ 3. Interactive Route Mapping
-*Dynamic visualization leveraging Geopy and Folium to plot paths, ensuring users visually audit their selected routes.*
-
-<p align="center">
-  <img src="images/route-map.png" alt="Interactive Route Map" width="85%">
-</p>
-
----
-
-### 📈 4. Model Performance & Evaluation Metrics
-*Transparency in data science. Displays real-time evaluation logs, including Mean Absolute Error (MAE) and Root Mean Square Error (RMSE).*
-
-<p align="center">
-  <img src="images/metrics.png" alt="Model Evaluation" width="85%">
-</p>
 # 📁 Project Structure
 
 ```
